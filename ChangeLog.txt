@@ -1,0 +1,82 @@
+X.X.X:
+    - Using HTTPS instead of HTTP for UI pack download
+    - Shipping a basic UI pack for out of the box usage
+
+1.3.4:
+    - Improved audio handling (Detached now from main connection thread)
+    - Improved the audio threshold handler
+    Windows:
+        - Fixed crash for CPU's which are not supporting the AVX instruction set
+    Linux:
+        - Removed libomp as dependency
+
+1.3.3:
+    - Reduced notification audio latency to max 0.08 seconds
+    - Removed unused native module
+    - Fixed crash reports happening during client close
+    - Fixed start crash without internet (Client isn't depend on the internet anymore)
+
+1.3.2:
+    - Linux: Fixed PPT for multiple X11 displays
+    - Fixed issue within the protocol which causes sometimes a connection setup to fail
+    - Added a crash handler for better debugging options
+
+1.3.1:
+    - Fixed file transfer issue from 1.3.0
+    - Fixed linux updater command issue
+    - Improved update handling
+
+1.3.0:
+    - New native audio interface (No javascript required anymore!)
+    - Fixed shift key detection (multi user select)
+    - Fixed music bot GUI
+    - Fixed query GUI
+
+1.2.2:
+    - Fixed command default handling (Now showing insufficient client permissions again)
+    - Fixed connection may sometimes not worked on certain DDOS protected servers
+    - Fixed SRV resolution (attempt number 2)
+    - Fixed missing pong response on pings
+    - Using the new updater for linux as well
+    - Main window now does not spawn anymore if an update is pending (or the auto updater poped up)
+    - Fixed argument parse bug
+    - Fixed cross device link error on update for Linux systems
+    - Added a changelog popup on client update
+    - Fixed file transfer
+
+1.2.1
+    - Fixed SRV port record resolve
+    - Fixed localhost name resolution
+    - Implemented ping timeout detection
+    - Added support for TeaSpeak forum and name based identity authentication
+    - Fixed loading screen animation
+    - Fixed TeaSpeak forum authentication
+    - TeaSpeak forum connection now saves on exit and don't get lost
+    - Fixed bug that consumes 200% CPU usage
+    - Fixed loader overflow scrolling for windows
+    - Fixed updater not working
+    - Added the changelog to the client
+
+1.2.0
+    - Implemented the native protocol and a native file transfer protocol
+    - Fixed settings and identities are not saved, after app has been closed
+    - Improved URL preview window, now showing a notification bar
+
+30.12.18
+    * General restructuring
+
+3.12.18
+    * Fixed updater overriding executable when update fails
+    * Fixed linux updater not working properly.
+    + Admin privileges request improved (windows and linux)
+    * Fixed update download directory. Ensure now that it has write permissions
+    Linux:
+        * Linked libstdc++.so.6 and libgcc_s.so.1 now statically
+
+- 1.1.0
+    + Added native audio codec processing for
+        - opus
+        - speex
+    + Added native push to talk processing
+    + Added check for UI package if its requiring a newer client
+    * Improved UI loader error handling
