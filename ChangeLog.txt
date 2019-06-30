@@ -1,3 +1,11 @@
+X.X.X:
+    - Updated electron from 4.0.5 to 5.0.6
+    - Improved opus encoding
+    - Added the title `TeaClient` to the updater window
+    - Using system context menus
+    - Removed window frame from loader screen
+    - Saving last position and size of windows
+
 1.3.5:
     - Using HTTPS instead of HTTP for UI pack download
     - Shipping a basic UI pack for out of the box usage
