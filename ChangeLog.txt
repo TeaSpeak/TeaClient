@@ -1,3 +1,7 @@
+1.3.6-1/1.3.6-2:
+    - Fixed several crashes
+    - Fixed handler scopes for v8 variables
+
 1.3.6:
     - Updated electron from 4.0.5 to 5.0.6
     - Improved opus encoding
@@ -48,7 +52,7 @@
     - Fixed SRV resolution (attempt number 2)
     - Fixed missing pong response on pings
     - Using the new updater for linux as well
-    - Main window now does not spawn anymore if an update is pending (or the auto updater poped up)
+    - Main window now  does not spawn anymore if an update is pending (or the auto updater poped up)
     - Fixed argument parse bug
     - Fixed cross device link error on update for Linux systems
     - Added a changelog popup on client update

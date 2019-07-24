@@ -7,3 +7,5 @@ Welcome here! This repository is created with two reasons:
 To **report an issue**, then find and push the **New Issue** button, fill all the fields you see in a template, and then click the **Submit new issue** button.  
   
 You can also ask questions here, if you have any.  
+
+# OS Support
