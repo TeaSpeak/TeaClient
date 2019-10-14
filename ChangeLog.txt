@@ -41,7 +41,7 @@
 1.3.2:
     - Linux: Fixed PPT for multiple X11 displays
     - Fixed issue within the protocol which causes sometimes a connection setup to fail
-    - Added a crash handler for better debugging options
+    - Added a crash handler for better debugging optionsls
 
 1.3.1:
     - Fixed file transfer issue from 1.3.0
