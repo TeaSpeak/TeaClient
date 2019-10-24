@@ -1,3 +1,9 @@
+1.4.1:
+    - Improved hostname resolving
+        - Now support for TSDNS
+        - Improved support for SRV records
+    - Fixed bug which sometimes prevents the client to be able to connect to certain servers
+
 1.4.0:
     - Using the new dark theme style pack
     - Fixed "Open in browser" button within URL preview
