@@ -3,6 +3,9 @@
         - Now support for TSDNS
         - Improved support for SRV records
     - Fixed bug which sometimes prevents the client to be able to connect to certain servers
+    - Fixed file transfer for files (Icons could be uploaded again)
+    - Fixed potential hangup within the file transfer handler
+    - Fixed potential hangup within the audio device manager
 
 1.4.0:
     - Using the new dark theme style pack
