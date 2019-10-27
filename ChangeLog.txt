@@ -6,6 +6,7 @@
     - Fixed file transfer for files (Icons could be uploaded again)
     - Fixed potential hangup within the file transfer handler
     - Fixed potential hangup within the audio device manager
+    - Improved application crash handling
 
 1.4.0:
     - Using the new dark theme style pack
