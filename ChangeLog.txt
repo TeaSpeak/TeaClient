@@ -1,4 +1,12 @@
 1.4.2:
+    - Fixed file transfer "File not found" bug
+    - Fixed the bug that multiple update instances run at the same time
+    Implemented all mouse keys (Windows):
+    - `MOUSE1` (right button)
+    - `MOUSE2` (left button)
+    - `MOUSE1` (middle button)
+    - `MOUSEX1` (First extra button)
+    - `MOUSEX2` (Second extra button)
     - Reworked the auto decode & assemble system
       - Laggy clients should now having a better sound
       - Fixed some voice shuddering issues
