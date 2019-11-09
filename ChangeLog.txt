@@ -1,3 +1,8 @@
+1.4.2:
+    - Reworked the auto decode & assemble system
+      - Laggy clients should now having a better sound
+      - Fixed some voice shuddering issues
+
 1.4.1:
     - Improved hostname resolving
         - Now support for TSDNS
