@@ -10,6 +10,7 @@
     - Reworked the auto decode & assemble system
       - Laggy clients should now having a better sound
       - Fixed some voice shuddering issues
+    - Moved an assert statement to critical log so we could trace the error.
 
 1.4.1:
     - Improved hostname resolving
