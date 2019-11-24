@@ -11,6 +11,7 @@
       - Laggy clients should now having a better sound
       - Fixed some voice shuddering issues
     - Moved an assert statement to critical log so we could trace the error.
+    - Fixed wired behaviour when using PPT (see WebClient issue #73)
 
 1.4.1:
     - Improved hostname resolving
