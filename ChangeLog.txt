@@ -1,4 +1,4 @@
-1.4.2-beta2:
+1.4.2-beta3:
     - Fixed wired behaviour when using PPT (see WebClient issue #73)
     - Don't spamming update popups when a new update is available and one popup is already open
     - Updated electron to 7.1.2
