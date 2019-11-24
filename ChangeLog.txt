@@ -1,3 +1,10 @@
+1.4.2-beta2:
+    - Fixed wired behaviour when using PPT (see WebClient issue #73)
+    - Don't spamming update popups when a new update is available and one popup is already open
+    - Updated electron to 7.1.2
+    - Do not close the Launch client window when changelog has been closed
+    - Implemented "teaclient://" url
+
 1.4.2:
     - Fixed file transfer "File not found" bug
     - Fixed the bug that multiple update instances run at the same time
@@ -11,7 +18,6 @@
       - Laggy clients should now having a better sound
       - Fixed some voice shuddering issues
     - Moved an assert statement to critical log so we could trace the error.
-    - Fixed wired behaviour when using PPT (see WebClient issue #73)
 
 1.4.1:
     - Improved hostname resolving
