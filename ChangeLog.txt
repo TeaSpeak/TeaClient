@@ -1,3 +1,9 @@
+1.4.3:
+	- Switched from Portautio to soundio, this should reduce some CPU usage
+	- Improved internal audio handing (also reduced some CPU usage)
+	- Fixed a bug which cause that you can't hear clients anymore after 20 min continuous transmission
+	- Fixed a crash within the dns module
+	
 1.4.2-beta3:
     - Fixed wired behaviour when using PPT (see WebClient issue #73)
     - Don't spamming update popups when a new update is available and one popup is already open
