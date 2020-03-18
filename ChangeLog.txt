@@ -1,3 +1,8 @@
+1.4.3:
+    - Fixed a client crash on invalid audio packets
+    - Fixed clipping on multiple simultaniusly played audio streams
+    - Using native sound playback. Sounds like "connected", "microphone muted" are now not longer depending on the UI thread
+
 1.4.2-beta3:
     - Fixed wired behaviour when using PPT (see WebClient issue #73)
     - Don't spamming update popups when a new update is available and one popup is already open
