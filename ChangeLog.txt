@@ -1,9 +1,21 @@
+1.4.4:
+    - Fixed a client crash on invalid audio packets
+    - Fixed clipping on multiple simultaneously played audio streams
+    - Using native sound playback. Sounds like "connected", "microphone muted" are now not longer depending on the UI thread
+
 1.4.3:
-	- Switched from Portautio to soundio, this should reduce some CPU usage
+	- Switched from portautio to soundio, this should reduce some CPU usage (this change has been reverted!)
 	- Improved internal audio handing (also reduced some CPU usage)
 	- Fixed a bug which cause that you can't hear clients anymore after 20 min continuous transmission
 	- Fixed a crash within the dns module
 	
+1.4.2-beta3:
+    - Fixed wired behaviour when using PPT (see WebClient issue #73)
+    - Don't spamming update popups when a new update is available and one popup is already open
+    - Updated electron to 7.1.2
+    - Do not close the Launch client window when changelog has been closed
+    - Implemented "teaclient://" url
+
 1.4.2-beta3:
     - Fixed wired behaviour when using PPT (see WebClient issue #73)
     - Don't spamming update popups when a new update is available and one popup is already open
