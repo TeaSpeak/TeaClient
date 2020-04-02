@@ -1,3 +1,10 @@
+1.4.5:
+    - Updated the backend to use the latest UI version with webpack
+    - Improved the UI loader. It now does not fails anymore on invalid cached UI packs
+    - Fixed file leakage bug after client close (UI files are not getting cleaned upped)#
+    - Improved UI pack loader error handling. On error the loader tried another pack so its more unlikely to fail.
+    - Fixed some small UI bugs for the internal web browser
+
 1.4.4:
     - Fixed a client crash on invalid audio packets
     - Fixed clipping on multiple simultaneously played audio streams
@@ -5,11 +12,11 @@
     - Fixed a clipping issue which has disrupted the playback quality for some clients
 
 1.4.3:
-	- Switched from portautio to soundio, this should reduce some CPU usage (this change has been reverted!)
-	- Improved internal audio handing (also reduced some CPU usage)
-	- Fixed a bug which cause that you can't hear clients anymore after 20 min continuous transmission
-	- Fixed a crash within the dns module
-	
+    - Switched from portautio to soundio, this should reduce some CPU usage (this change has been reverted!)
+    - Improved internal audio handing (also reduced some CPU usage)
+    - Fixed a bug which cause that you can't hear clients anymore after 20 min continuous transmission
+    - Fixed a crash within the dns module
+    
 1.4.2-beta3:
     - Fixed wired behaviour when using PPT (see WebClient issue #73)
     - Don't spamming update popups when a new update is available and one popup is already open
