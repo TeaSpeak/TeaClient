@@ -4,6 +4,7 @@
     - Fixed file leakage bug after client close (UI files are not getting cleaned upped)#
     - Improved UI pack loader error handling. On error the loader tried another pack so its more unlikely to fail.
     - Fixed some small UI bugs for the internal web browser
+    - Client does not disconnect on too long packets (it just silently drops it)
 
 1.4.4:
     - Fixed a client crash on invalid audio packets
@@ -17,13 +18,6 @@
     - Fixed a bug which cause that you can't hear clients anymore after 20 min continuous transmission
     - Fixed a crash within the dns module
     
-1.4.2-beta3:
-    - Fixed wired behaviour when using PPT (see WebClient issue #73)
-    - Don't spamming update popups when a new update is available and one popup is already open
-    - Updated electron to 7.1.2
-    - Do not close the Launch client window when changelog has been closed
-    - Implemented "teaclient://" url
-
 1.4.2-beta3:
     - Fixed wired behaviour when using PPT (see WebClient issue #73)
     - Don't spamming update popups when a new update is available and one popup is already open
