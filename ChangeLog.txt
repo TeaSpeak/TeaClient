@@ -1,7 +1,7 @@
 1.4.5:
     - Updated the backend to use the latest UI version with webpack
     - Improved the UI loader. It now does not fails anymore on invalid cached UI packs
-    - Fixed file leakage bug after client close (UI files are not getting cleaned upped)#
+    - Fixed file leakage bug after client close (UI files are not getting cleaned upped)
     - Improved UI pack loader error handling. On error the loader tried another pack so its more unlikely to fail.
     - Fixed some small UI bugs for the internal web browser
     - Client does not disconnect on too long packets (it just silently drops it)
