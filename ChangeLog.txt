@@ -5,6 +5,7 @@
     - Improved UI pack loader error handling. On error the loader tried another pack so its more unlikely to fail.
     - Fixed some small UI bugs for the internal web browser
     - Client does not disconnect on too long packets (it just silently drops it)
+    - Client now directly disconnects on a socket io error
 
 1.4.4:
     - Fixed a client crash on invalid audio packets
