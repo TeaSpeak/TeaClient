@@ -1,3 +1,8 @@
+1.4.5-beta1:
+    - Fixed the URL preview
+    - Fixed settings loading/saving. Settings now do not break anymore if the client gets closed while saving
+    - Moving unparsable settings instead of deleting them for maybe manual recovery
+
 1.4.5:
     - Updated the backend to use the latest UI version with webpack
     - Improved the UI loader. It now does not fails anymore on invalid cached UI packs
