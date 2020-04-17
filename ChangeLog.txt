@@ -1,3 +1,9 @@
+1.4.5-beta2:
+    - Improved the voice threshold algorithm
+    - Fixed RSA puzzle change solving for weak puzzles
+    - Improved voice packet loss handling
+    - Fixed memory leak when replaying voice
+
 1.4.5-beta1:
     - Fixed the URL preview
     - Fixed settings loading/saving. Settings now do not break anymore if the client gets closed while saving
