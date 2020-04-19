@@ -3,6 +3,9 @@
     - Fixed RSA puzzle change solving for weak puzzles
     - Improved voice packet loss handling
     - Fixed memory leak when replaying voice
+    - Fixed a possible voice packet decryption bug (same as within the server)
+    - Adjusted control packet retransmission according to the official TCP/IP retransmission rfc6298 using an RTO of 200ms (like the linux kernel dos)
+    - Improved the packet acknowledge handler a bit
 
 1.4.5-beta1:
     - Fixed the URL preview
