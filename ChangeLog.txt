@@ -1,3 +1,9 @@
+1.4.6:
+    - Updated the update installer (Now shows which processes are locking the target file) (Windows only)
+    - Speeded up the mouse event processing. The client should no longer slow down the Windows system mouse in some cases.
+    - Some minor voice quality improvements
+    - Improved voice packet loss handling (less disturbing sounds)
+
 1.4.5-beta3:
     - Fixed a client crash on server disconnect
 
@@ -7,7 +13,7 @@
     - Improved voice packet loss handling
     - Fixed memory leak when replaying voice
     - Fixed a possible voice packet decryption bug (same as within the server)
-    - Adjusted control packet retransmission according to the official TCP/IP retransmission rfc6298 using an RTO of 200ms (like the linux kernel dos)
+    - Adjusted control packet retransmission according to the official TCP/IP retransmission rfc6298 using an RTO of 200ms (like the linux kernel does)
     - Improved the packet acknowledge handler a bit
 
 1.4.5-beta1:
