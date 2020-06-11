@@ -1,3 +1,11 @@
+1.4.8:
+    - Added channel file transfer
+    - Fixed a crash related to TSDNS srv records
+
+1.4.7:
+    - Signing client executables
+    - Added an uninstaller
+
 1.4.6:
     - Updated the update installer (Now shows which processes are locking the target file) (Windows only)
     - Speeded up the mouse event processing. The client should no longer slow down the Windows system mouse in some cases.
