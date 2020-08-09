@@ -1,6 +1,9 @@
 1.4.9:
     - Added support for the popout able modals
-    - Improved the internal web page previewer
+    - Fixed microphone settings not saving
+    - Enabled compiler optimisation for the native modules
+    - Fixed sound volume adjustment
+    - Improved volume adjustment algorithm (prevent clipping)
 
 1.4.8:
     - Added channel file transfer
