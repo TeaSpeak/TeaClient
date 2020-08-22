@@ -1,3 +1,9 @@
+1.4.10:
+    - Removed support for sound input driver Windows WDM-KS
+      (Caused some audio glitches related to realtek)
+    - Added an option to disable the crash handler
+    - Improved chat handling for non TeaSpeak server
+
 1.4.9:
     - Added support for the popout able modals
     - Fixed microphone settings not saving
