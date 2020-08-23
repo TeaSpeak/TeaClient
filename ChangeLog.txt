@@ -2,7 +2,10 @@
     - Removed support for sound input driver Windows WDM-KS
       (Caused some audio glitches related to realtek)
     - Added an option to disable the crash handler
+    - Fixed crash due to the ppt handler on client close
+    - Improved client close speed (the client may hang for a few seconds due to the push to talk keyboard listener)
     - Improved chat handling for non TeaSpeak server
+    - Fixed the internal website preview browser
 
 1.4.9:
     - Added support for the popout able modals
@@ -19,24 +22,25 @@
     - Signing client executables
     - Added an uninstaller
 
+1.4.6-b3:
+    - Fixed client connect URL
+    - Added support for `?port=<port>` parameter
+    - Fixed IPv6 connections (seems to have failed on Windows)
+
+1.4.6-b2:
+    - Fixed blue dot sometimes not deactivating
+    - Using native file transfer instead of https requests
+
 1.4.6:
     - Updated the update installer (Now shows which processes are locking the target file) (Windows only)
     - Speeded up the mouse event processing. The client should no longer slow down the Windows system mouse in some cases.
     - Some minor voice quality improvements
     - Improved voice packet loss handling (less disturbing sounds)
-    Beta 2:
-    - Fixed blue dot sometimes not deactivating
-    - Using native file transfer instead of https requests
 
-    Beta 3:
-    - Fixed client connect URL
-    - Added support for `?port=<port>` parameter
-    - Fixed IPv6 connections (seems to have failed on Windows)
-
-1.4.5-beta3:
+1.4.5-b3:
     - Fixed a client crash on server disconnect
 
-1.4.5-beta2:
+1.4.5-b2:
     - Improved the voice threshold algorithm
     - Fixed RSA puzzle change solving for weak puzzles
     - Improved voice packet loss handling
@@ -45,7 +49,7 @@
     - Adjusted control packet retransmission according to the official TCP/IP retransmission rfc6298 using an RTO of 200ms (like the linux kernel does)
     - Improved the packet acknowledge handler a bit
 
-1.4.5-beta1:
+1.4.5-b1:
     - Fixed the URL preview
     - Fixed settings loading/saving. Settings now do not break anymore if the client gets closed while saving
     - Moving unparsable settings instead of deleting them for maybe manual recovery
@@ -71,7 +75,7 @@
     - Fixed a bug which cause that you can't hear clients anymore after 20 min continuous transmission
     - Fixed a crash within the dns module
     
-1.4.2-beta3:
+1.4.2-b3:
     - Fixed wired behaviour when using PPT (see WebClient issue #73)
     - Don't spamming update popups when a new update is available and one popup is already open
     - Updated electron to 7.1.2
@@ -109,7 +113,7 @@
     - Improved voice buffer reassemble algorithm
     - Updated electron from 5.0.6 to 6.0.7
 
-1.3.6-1/1.3.6-2:
+1.3.6-b1:
     - Fixed several crashes
     - Fixed handler scopes for v8 variables
 
@@ -182,26 +186,27 @@
     - Fixed updater not working
     - Added the changelog to the client
 
-1.2.0
+1.2.0:
     - Implemented the native protocol and a native file transfer protocol
     - Fixed settings and identities are not saved, after app has been closed
     - Improved URL preview window, now showing a notification bar
 
-30.12.18
-    * General restructuring
+1.1.2:
+    - General restructuring
 
-3.12.18
-    * Fixed updater overriding executable when update fails
-    * Fixed linux updater not working properly.
-    + Admin privileges request improved (windows and linux)
-    * Fixed update download directory. Ensure now that it has write permissions
-    Linux:
-        * Linked libstdc++.so.6 and libgcc_s.so.1 now statically
+1.1.1:
+    - Fixed updater overriding executable when update fails
+    - Fixed linux updater not working properly.
+    - Admin privileges request improved (windows and linux)
+    - Fixed update download directory. Ensure now that it has write permissions
 
-- 1.1.0
-    + Added native audio codec processing for
+    - Linux specific changes
+        - Linked libstdc++.so.6 and libgcc_s.so.1 now statically
+
+1.1.0:
+    - Added native audio codec processing for
         - opus
         - speex
-    + Added native push to talk processing
-    + Added check for UI package if its requiring a newer client
-    * Improved UI loader error handling
+    - Added native push to talk processing
+    - Added check for UI package if its requiring a newer client
+    - Improved UI loader error handling
