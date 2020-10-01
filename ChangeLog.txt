@@ -1,3 +1,8 @@
+1.4.12:
+    - Implemented channel popouts
+    - Some backend updates required for the UI
+    - Adding RNNoise suppression to suppress background noise (enabled by default)
+
 1.4.11:
     - Implementing the API changes from the UI to update the UI
     - Added a system tray icon indicating the current client status
