@@ -1,3 +1,12 @@
+1.4.13:
+    - Fixed initial rnnoise filter state (Thanks to @yamano)
+    - Fixed the URL preview popout
+    - Updated the menu bar
+    - The menu bar now shows the server icons
+    - Some internal API changes
+    - Fixed sub context menus
+    - Fixed possible bug which resetted the client settings
+
 1.4.12:
     - Implemented channel popouts
     - Some backend updates required for the UI
