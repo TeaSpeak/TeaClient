@@ -1,6 +1,11 @@
 1.5.0:
     - Introduced Video!
     - Fixed client loading failure on huge amounts of installed audio io devices
+    - Improved the updater user experience
+    - Deployed client versions now contain a version
+    - Added configurable update channels
+    - The client now only checks for updates on client start (removed the annoying update popups)
+    - The updater now does not ask for administrator privileges if not required (Will apply on the next update)
 
 1.4.13:
     - Fixed initial rnnoise filter state (Thanks to @yamano)
