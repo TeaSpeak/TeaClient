@@ -7,6 +7,7 @@
     - The client now only checks for updates on client start (removed the annoying update popups)
     - The updater now does not ask for administrator privileges if not required (Will apply on the next update)
     - Fixed bug which lead to a failed file transfer request
+    - Fixed microphone selection
 
 1.4.13:
     - Fixed initial rnnoise filter state (Thanks to @yamano)
