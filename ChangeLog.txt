@@ -1,3 +1,7 @@
+1.5.1:
+    - Fixed default microphone selection (New users now use their default microphone instead of encountering an error)
+    - Fixed bug which prevented the client from starting when the update server is not reachable
+
 1.5.0:
     - Introduced Video!
     - Fixed client loading failure on huge amounts of installed audio io devices
