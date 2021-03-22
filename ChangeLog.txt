@@ -1,3 +1,7 @@
+1.5.2:
+    - Improved sound fadeout and fadein effects to reduce sound cracking effect on replay start
+    - Various internal changes to finally cleanup the gluing part between native and shared ui
+
 1.5.1:
     - Fixed default microphone selection (New users now use their default microphone instead of encountering an error)
     - Fixed bug which prevented the client from starting when the update server is not reachable
