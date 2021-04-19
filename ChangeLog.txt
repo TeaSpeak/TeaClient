@@ -1,3 +1,15 @@
+1.5.3:
+    - Added various audio preprocessing options like echo cancellation
+    - Added support for mono only output devices
+    - Fixed a bug within the merge algorithm which lead to disturbed audio when multiple clients were talking
+    - Heavily improved audio level indicator performance when opening the settings
+    - Changed the internal audio playback sample rate from 44,100hz to 48,000hz
+    - Removed annoying "ok" error messages within the server log when being connected to a TS3 server
+    - Fixed a bug which lead to missing setting values in popout modals
+    - Fixed a bug which cause that clients cant hear each other
+    - Fixed a bug which caused the spam of "connection disconnected" sounds on reconnect attempts
+    - Fixed reconnect spam on failed connection attempt to localhost
+
 1.5.2:
     - Improved sound fadeout and fadein effects to reduce sound cracking effect on replay start
     - Various internal changes to finally cleanup the gluing part between native and shared ui
