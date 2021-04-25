@@ -1,3 +1,6 @@
+1.5.3-b1:
+    - Fixed a bug which cause new clients being unable to startup the client for the first time
+
 1.5.3:
     - Added various audio preprocessing options like echo cancellation
     - Added support for mono only output devices
